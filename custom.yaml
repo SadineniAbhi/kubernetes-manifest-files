@@ -1,0 +1,11 @@
+global:
+  airbyteUrl: "http://myairbyte.com"
+
+  metrics:
+    metricClient: "otel"
+    otelCollectorEndpoint: "http://otel-collector:4318"
+
+metrics:
+  enabled: true
+
+
